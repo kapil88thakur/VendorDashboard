@@ -2,7 +2,7 @@ version: "3"
 services:
   react-app:
     image: vendordash:test
-    container_name: vendordash
+    container_name: vendordash:test
     ports:
       - "4300:3000"
     volumes:
