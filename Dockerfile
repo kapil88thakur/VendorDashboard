@@ -11,4 +11,4 @@ COPY . .
 
 EXPOSE 4300
 
-CMD ["npm","run","start"]
+CMD ["npm", "start", "--", "--host", "0.0.0.0", "--port", "4300"]
