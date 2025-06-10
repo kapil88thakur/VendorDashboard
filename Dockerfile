@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package*.json .
 
-npm run install
+npm install
 
 COPY . .
 
