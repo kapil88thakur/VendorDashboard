@@ -22,7 +22,7 @@ function Sidebar() {
                         <div className="h-full flex-col justify-between px-4 flex">
                             <div className="space-y-4">
                                 <div className="bg-top bg-cover space-y-1">    
-                                <SideBarLink title="Dashboardddd" link="/dashboard" icon="" />	
+                                <SideBarLink title="Kapil Dash" link="/dashboard" icon="" />	
                                 <SideBarLink title="Home" link="/home" icon="" />	
                                 <SideBarLink title="Store"link="" icon="" />  
                                 <SideBarLink title="Product" link="/product" icon="" />
