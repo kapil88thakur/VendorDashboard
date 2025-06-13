@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM vendor-frontend
 
 WORKDIR /app
 
