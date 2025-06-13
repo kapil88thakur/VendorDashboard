@@ -4,4 +4,4 @@ services:
     container_name: vendor-frontend
     working_dir: /app
     volumes:
-      - ./app:/app
+      - /home/hp/vendor_app:/app
