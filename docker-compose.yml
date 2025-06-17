@@ -2,6 +2,6 @@ services:
   vendor-app: 
     build: .
     ports:
-      - 4300:3000
+      - 4200:3000
     volumes:
       - /home/hp/VendorDashboard:/app

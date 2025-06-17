@@ -8,6 +8,6 @@ RUN npm install --legacy-peer-deps
 
 COPY . .
 
-EXPOSE 4300
+EXPOSE 4200
 
-CMD ["npm", "start", "--", "--host", "0.0.0.0", "--port", "4300"]
+CMD ["npm", "start", "--", "--host", "0.0.0.0", "--port", "4200"]
