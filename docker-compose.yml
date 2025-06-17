@@ -1,7 +1,7 @@
 services:
-  app: 
-    image: node:20-alpine
-    container_name: vendor-frontend
-    working_dir: /app
+  vendor-app: 
+    build: .
+    ports:
+      - 4300:3000
     volumes:
-      - /home/hp/vendor_app:/app
+      - /home/hp/VendorDashboard:/app
