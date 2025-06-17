@@ -4,4 +4,4 @@ services:
     ports:
       - 4200:3000
     volumes:
-      - /home/hp/VendorDashboard/src:/app
+      - /home/hp/VendorDashboard/src:/app/src
