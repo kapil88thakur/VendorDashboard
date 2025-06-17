@@ -13,7 +13,7 @@ function Dashboard() {
    }
   return (
     <Layout title="Dashboard">
-        this is dashboard
+        this is dashboard kapil
        
        </Layout>
   )
