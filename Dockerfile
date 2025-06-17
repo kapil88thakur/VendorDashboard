@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 4200
 
-CMD ["npm", "start",  "--port", "4200"]
+CMD ["npm", "start"]
