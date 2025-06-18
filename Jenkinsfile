@@ -24,7 +24,7 @@ pipeline {
                      ssh -o StrictHostKeyChecking=no $PROD_SERVER "sudo mkdir -p $DEPLOY_PATH && sudo chown -R ubuntu:ubuntu $DEPLOY_PATH"
 
                      echo "Copying files to target EC2..."
-                        rsync -avz -e "ssh -o StrictHostKeyChecking=no" ./ $PROD_SERVER:$DEPLOY_PATH"
+                        rsync -avz -e "ssh -o StrictHostKeyChecking=no" ./ $PROD_SERVER:$DEPLOY_PATH
                     
                     '''
                     //  echo "Copying files to target EC2..."
