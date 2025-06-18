@@ -11,7 +11,7 @@ console.log("token is:",token);
 //const token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2MxYjM5ZDEzZTA1M2JkZDczNzhhNTEiLCJzaG9wSWQiOiI2N2MzM2NlNTIxOWNiZjk3Mjg0NTIxMDAiLCJpYXQiOjE3NDQ3OTM3ODYsImV4cCI6MTc0NDc5NzM4Nn0.Vugis0OOKOUKsD318b2FQqRqE0JphNjds0hOwvsCWbE';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const client = new ApolloClient({
-  uri: 'http://13.201.131.78:4000',
+  uri: process.env['API_URI'],
   cache: new InMemoryCache(),
   headers:{
     //authorization:localStorage.getItem("token")||""

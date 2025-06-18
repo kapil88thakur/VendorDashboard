@@ -5,3 +5,5 @@ services:
       - 4200:3000
     volumes:
       - /var/www/VendorDashboard/src:/app/src
+    environment:
+      API_URI: http://43.204.116.6:4700
