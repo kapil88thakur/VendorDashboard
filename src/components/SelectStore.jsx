@@ -7,7 +7,7 @@ import { useLazyQuery,useQuery,useMutation } from '@apollo/client';
 import { selectShop } from '../graphql/queries';
 export default function SelectStore({stores}) {
   let initialStore= localStorage.getItem("selectedStore");
-  const [selectedValue,setSelectedValue]= useState(initialStore);
+  const [selectedValue,setSelectedValue]= useState( );
         const [selectShopvar, { loading, error ,data}] =useLazyQuery(selectShop);
 if(data){
   localStorage.setItem("token",data.selectShop.token);
